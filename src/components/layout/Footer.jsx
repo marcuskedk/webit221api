@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         &copy; Copyright 2022 | WebIT221 - API
       </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;

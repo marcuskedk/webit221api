@@ -16,7 +16,12 @@ const Home = () => {
 
     return (
         <>
-            Home
+            {
+                creatures == null ? <span>Loading...</span> : 
+                creatures.map(item => (
+                    <p>{item.name}</p>
+                ))
+            }
         </>
     );
 }
